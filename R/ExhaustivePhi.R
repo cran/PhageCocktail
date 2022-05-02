@@ -2,7 +2,7 @@
 
 ExhaustivePhi<-function(matrix_pb,bacteria_number, phage_number, MaxPhage,MaxBacteria,new_matrix,phage_names,limit,file_name,FUN){
 
-  Temperature=nestedness(matrix_pb, null.models = FALSE, n.nulls = 1000, popsize = 30, n.ind = 7, n.gen = 2000, binmatnestout=FALSE)$temperature
+  Temperature=nestedness(matrix_pb, null.models = FALSE, n.nulls = 1000, popsize = 30, n.ind = 7, n.gen = 2000, binmatnestout=FALSE)$statistic
   counter_1=0
   for(i in 1:bacteria_number){
     for(p in 1:phage_number){
