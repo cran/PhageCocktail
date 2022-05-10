@@ -44,6 +44,14 @@ number of clusters is less than Phi number, it will be changed to obtain, as
 minimum, this quantity of candidates (phages). Then, it calculates the best
 combination of Phi phages using those selected during the clustering with Ward
 algorithm.
+
+If you use PhageCocktail, please cite it as:
+"PhageCocktail: An R Package to Design Phage Cocktails from Experimental
+Phage-Bacteria Infection Networks". María Victoria Díaz-Galián,
+Miguel A. Vega-Rodríguez, Felipe Molina. \eqn{Computer Methods and Programs
+in Biomedicine, 106865}, Elsevier Ireland, Clare, Ireland, 2022,
+ISSN: 0169-2607.
+
 }
 \arguments{
 \item{pathway}{string with the input file pathway. The input file must be in
@@ -137,6 +145,16 @@ University of Extremadura, Spain
 }
 
 \references{
+**If you use PhageCocktail, please cite it as:
+
+"PhageCocktail: An R Package to Design Phage Cocktails from Experimental
+Phage-Bacteria Infection Networks". María Victoria Díaz-Galián,
+Miguel A. Vega-Rodríguez, Felipe Molina. \eqn{Computer Methods and Programs
+in Biomedicine, 106865}, Elsevier Ireland, Clare, Ireland, 2022,
+ISSN: 0169-2607.
+
+------------------------------------------------------------------------
+
 Molina, F., Simancas, A., Ramírez, M., Tabla, R., Roa, I., & Rebollo, J. E.
 (2021). A new pipeline for designing phage cocktails based on phage-bacteria
 infection networks. \eqn{Frontiers in Microbiology, 12}, 149.

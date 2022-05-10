@@ -1,7 +1,7 @@
 Package: PhageCocktail
 Type: Package
 Title: Design of the Best Phage Cocktail
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: 
     c(person(given = "Maria Victoria",
              family = "Diaz-Galian",
@@ -43,12 +43,17 @@ Description: There are 4 possible methods: "ExhaustiveSearch"; "ExhaustivePhi";
 	changed to obtain, as minimum, this quantity of candidates (phages). Then, it
 	calculates the best combination of Phi phages using those selected during the
 	clustering with Ward algorithm.
+	  If you use PhageCocktail, please cite it as:
+  "PhageCocktail: An R Package to Design Phage Cocktails from Experimental 
+  Phage-Bacteria Infection Networks". María Victoria Díaz-Galián, Miguel A. 
+  Vega-Rodríguez, Felipe Molina. Computer Methods and Programs in Biomedicine,
+  106865, Elsevier Ireland, Clare, Ireland, 2022, ISSN: 0169-2607.
 Imports: readxl, stringr, factoextra, bipartite, smerc, RJSONIO
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.1.1.9001
 NeedsCompilation: no
-Packaged: 2022-05-02 08:01:48 UTC; MVDia
+Packaged: 2022-05-10 07:22:03 UTC; MVDia
 Author: Maria Victoria Diaz-Galian [aut, cre]
     (<https://orcid.org/0000-0003-2543-6081>),
   Miguel A. Vega-Rodriguez [aut]
@@ -56,4 +61,4 @@ Author: Maria Victoria Diaz-Galian [aut, cre]
   Felipe Molina [aut] (<https://orcid.org/0000-0002-9167-7097>)
 Maintainer: Maria Victoria Diaz-Galian <mvdiazgalian@unex.es>
 Repository: CRAN
-Date/Publication: 2022-05-02 08:30:11 UTC
+Date/Publication: 2022-05-10 07:50:06 UTC
