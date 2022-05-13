@@ -1,7 +1,7 @@
 Package: PhageCocktail
 Type: Package
 Title: Design of the Best Phage Cocktail
-Version: 1.0.2
+Version: 1.0.3
 Authors@R: 
     c(person(given = "Maria Victoria",
              family = "Diaz-Galian",
@@ -18,8 +18,7 @@ Authors@R:
              role = "aut",
              email = "fmolina@unex.es",
              comment = c(ORCID = "0000-0002-9167-7097")))
-Description: There are 4 possible methods: "ExhaustiveSearch"; "ExhaustivePhi";
-    "ClusteringSearch"; and "ClusteringPhi". 
+Description: There are 4 possible methods: "ExhaustiveSearch"; "ExhaustivePhi";    "ClusteringSearch"; and "ClusteringPhi". 
     "ExhaustiveSearch"--> gives you the best phage cocktail from a phage-bacteria
 	infection network. It checks different phage cocktail sizes from 1 to 7 and
 	only stops before if it lyses all bacteria. Other option is when users have
@@ -47,13 +46,14 @@ Description: There are 4 possible methods: "ExhaustiveSearch"; "ExhaustivePhi";
   "PhageCocktail: An R Package to Design Phage Cocktails from Experimental 
   Phage-Bacteria Infection Networks". María Victoria Díaz-Galián, Miguel A. 
   Vega-Rodríguez, Felipe Molina. Computer Methods and Programs in Biomedicine,
-  106865, Elsevier Ireland, Clare, Ireland, 2022, ISSN: 0169-2607.
+  221, 106865, Elsevier Ireland, Clare, Ireland, 2022, pp. 1-9, ISSN: 0169-2607.
+  <doi:10.1016/j.cmpb.2022.106865>.
 Imports: readxl, stringr, factoextra, bipartite, smerc, RJSONIO
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.1.1.9001
 NeedsCompilation: no
-Packaged: 2022-05-10 07:22:03 UTC; MVDia
+Packaged: 2022-05-13 21:16:35 UTC; MVDia
 Author: Maria Victoria Diaz-Galian [aut, cre]
     (<https://orcid.org/0000-0003-2543-6081>),
   Miguel A. Vega-Rodriguez [aut]
@@ -61,4 +61,4 @@ Author: Maria Victoria Diaz-Galian [aut, cre]
   Felipe Molina [aut] (<https://orcid.org/0000-0002-9167-7097>)
 Maintainer: Maria Victoria Diaz-Galian <mvdiazgalian@unex.es>
 Repository: CRAN
-Date/Publication: 2022-05-10 07:50:06 UTC
+Date/Publication: 2022-05-13 21:50:02 UTC

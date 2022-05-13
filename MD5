@@ -1,4 +1,4 @@
-838156d05c0ae75c41676ffb8eeb50c5 *DESCRIPTION
+ba24c42cb3c3c80f82a38674889ad948 *DESCRIPTION
 4464d7ce0884fb488d802eeb0163d781 *NAMESPACE
 45f5a9feda0a5057b2d65997bb75db20 *R/ExhaustivePhi.R
 c3f876aa9a205d5e54ee08a270b9ea87 *R/ExhaustiveSearch.R
@@ -17,6 +17,6 @@ a51519ec54757eaa073342d3afb80d00 *R/Search6.R
 f017e34723821253af56c410f9dd6f18 *R/bacteria_lysed.R
 b3bdce444f1438d4e4581baa2d536e0b *R/phagelist.R
 de6e9fe31b66bf14a6ac79b0c52504be *R/phageselected.R
-13fe644ce7d818a6af06196b6b75b638 *build/partial.rdb
+48b063c563a283a59262993fd1535c22 *build/partial.rdb
 06fdbf61be29d7bababf3c4fe9717954 *inst/extdata/Sajben-Nagy.xlsx
-672cb9604fc53966e3d94cbbc552feda *man/PhageCocktail.Rd
+3ae7aef64d58a9af8bf0cd29dcc3d5ae *man/PhageCocktail.Rd
